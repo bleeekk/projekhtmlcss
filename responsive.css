@@ -1,0 +1,38 @@
+@media (max-width: 1000px) {
+  .main1-wrapper {
+    width: 100%;
+  }
+  .container h1 {
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 6px;
+  }
+  .content-wrapper {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 670px) {
+  .main1-wrapper {
+    width: 100%;
+  }
+  .container h1 {
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 4px;
+  }
+  .content-wrapper {
+    width: 50%;
+  }
+  .content-wrapper h2 {
+    font-size: smaller;
+  }
+  .content-wrapper p {
+    font-size: smaller;
+  }
+  .btn {
+    height: auto;
+    width: auto;
+    font-size: smaller;
+  }
+}
